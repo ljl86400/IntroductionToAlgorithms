@@ -10,7 +10,10 @@ InsertionSortor::InsertionSortor()
 
 InsertionSortor::~InsertionSortor()
 {
-	delete []mpBuf;
+	if (NULL != mpBuf)
+	{
+		delete []mpBuf;
+	}
 }
 
 void InsertionSortor::run(int *pInput,int inputLen)

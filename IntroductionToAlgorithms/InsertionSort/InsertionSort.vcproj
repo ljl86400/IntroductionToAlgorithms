@@ -2,7 +2,7 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="InsertionSort"
+	Name="Sort"
 	ProjectGUID="{0AC5C2B1-47D8-4296-9505-F06E37999167}"
 	RootNamespace="InsertionSort"
 	Keyword="Win32Proj"
@@ -174,7 +174,7 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\InsertionSortorMain.cpp"
+				RelativePath=".\SortorTestMain.cpp"
 				>
 			</File>
 		</Filter>
@@ -191,6 +191,10 @@
 				RelativePath=".\InsertionSortor.h"
 				>
 			</File>
+			<File
+				RelativePath=".\MergeSortor.h"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Resource Files"
@@ -199,6 +203,10 @@
 			>
 			<File
 				RelativePath=".\InsertionSortor.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\MergeSortor.cpp"
 				>
 			</File>
 		</Filter>
